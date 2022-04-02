@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - CodeJava</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css">
+
+
+</head>
+<body>
+
+
+
+<div class="container text-center">
+
+
+    <a th:href="@{/login}">
+        <button  type="button" class="btn btn-primary">Login</button>
+    </a>
+    <a th:href="@{/register}">
+        <button type="button" class="btn btn-primary">Register</button>
+    </a>
+    <a th:href="@{/list_users}">
+        <button type="button" class="btn btn-danger">List of Products</button>
+    </a>
+
+
+</div>
+
+</body>
+</html>
